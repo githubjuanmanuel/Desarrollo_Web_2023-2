@@ -91,14 +91,15 @@ function while_switch(num1, num2, num3) {
             break;
         case 2:
             do {
-                
+                num2++;
             } while (num2 < (num3*3));
+            console.log(num2)
             break;
         default:
             break;
     }
 }
-while_switch(1,5,6);
+while_switch(2,5,6);
 
 
     
