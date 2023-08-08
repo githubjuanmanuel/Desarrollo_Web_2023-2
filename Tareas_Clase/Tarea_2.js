@@ -20,10 +20,11 @@ const funcion_1 = (arreglo) => {
 
 const funcion_2 = (num1,num2) => num1*num2;
 
-const callback = (num, funcion) => {
-    let resultado1 = funcion_1(arreglo)
-    return funcion(num,resultado1)
+const callback = (num, funcion1,funcion2) => {
+    let resultado1 = funcion1(arreglo)
+    console.log(resultado1);
+    return funcion2(num,resultado1)
 }
 
-console.log(callback(3,funcion_2))
+console.log(callback(6,funcion_1,funcion_2))
 
