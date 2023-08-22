@@ -19,7 +19,7 @@ console.log(pelisVistas);
 //Ver si todas las peliculas son de tipo accion
 
 const accionMovies = Peliculas.every(peli => peli.caracteristicas.tipoPeli === "Accion")
-console.log(accionMovies);
+//console.log(accionMovies);
 
 //Cambiar el genero de jurassic world
 
@@ -28,4 +28,4 @@ Peliculas.forEach((peli) => {
         peli.caracteristicas.genero = "Ciencia ficcion"
     }
 })
-console.log(Peliculas);
+//console.log(Peliculas);
