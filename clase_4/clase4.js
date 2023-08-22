@@ -18,9 +18,6 @@ class Animal{
 
 class Perro extends Animal{
     constructor(raza,color,sonido){
-        // this.raza = raza;
-        // this.color = color;
-        // this.sonido= sonido;
         super(raza, color, sonido,'casa')
     }
 
