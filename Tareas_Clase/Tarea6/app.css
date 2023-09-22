@@ -48,20 +48,20 @@ main img{
     height: 20rem;
 }
 
-.flex{
+article{
     margin-top: 2rem;
     display: flex;
     justify-content: space-evenly;
     
 }
-.flex section{ 
+article section{ 
     display: flex;
     flex-direction: column;
     padding: 1.5rem;
     border: darkslategray dotted;
     
 }
-.flex section a{
+article section a{
     display: block;
     text-decoration: none;
     text-align: center;
@@ -71,7 +71,7 @@ main img{
     font-size: 2rem;
     
 }
-.flex section a:hover{
+article section a:hover{
     background-color: darkslateblue;
 }
 
