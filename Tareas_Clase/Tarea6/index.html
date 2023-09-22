@@ -3,145 +3,39 @@
 
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>M&M Motors - Contacto</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link
-        href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Roboto:wght@400;700;900&display=swap"
-        rel="stylesheet">
+    <title>Tarea 6</title>
     <link rel="stylesheet" href="app.css">
 </head>
 
 <body>
     <header>
-        <h1 class="nombre-sitio">M&M <span>Motors</span></h1>
+        <h1>Solución <span>Tarea 6</span></h1>
+        <h2>Juan Manuel Montoya M</h2>
     </header>
-    <div class="contenedor-navegacion">
-        <nav class="nav-principal contenedor">
-            <a href="index.html">Inicio</a>
-            <a href="nosotros.html">Nosotros</a>
-            <a href="tienda.html">Tienda</a>
-            <a href="blog.html">Blog</a>
-            <a href="galeria.html">Galería</a>
-            <a href="contacto.html">Contacto</a>
-        </nav>
-    </div>
-
-    <main class="contenido-principal contenedor">
-        <h2 class="text-center">Contacto</h2>
-        <form class="formulario">
-            <fieldset>
-                <legend>Tus datos</legend>
-                <div class="campo">
-                    <label for="nombre">Nombre: </label>
-                    <input id="nombre" type="text" placeholder="Ingresa tu nombre" required>
-                </div>
-
-                <div class="campo">
-                    <label for="asunto">Asunto: </label>
-                    <input id="asunto" type="text" placeholder="Ingresa tu asunto" required>
-                </div>
-                <div class="campo">
-                    <label for="email">E-mail: </label>
-                    <input id="email" type="email" placeholder="Ingresa tu e-mail" required>
-                </div>
-
-                <div class="campo">
-                    <label for="tel">Teléfono: </label>
-                    <input id="tel" type="tel" placeholder="Ingresa tu número" required>
-                </div>
-                <div class="campo">
-                    <label for="fecha">Fecha: </label>
-                    <input id="fecha" type="date" placeholder="Ingresa tu asunto" required>
-                </div>
-                <div class="campo">
-                    <label for="mensaje">Mensaje: </label>
-                    <textarea name="" id="" cols="30" rows="10" required></textarea>
-                </div>
-            </fieldset>
-            <fieldset>
-                <legend>País</legend>
-                <div class="campo">
-                    <label for="pais">Nombre: </label>
-                    <select name="" id="pais" required>
-                        <option value="" disabled>--Seleccione--</option>
-                        <option value="MX">México</option>
-                        <option value="CO" selected>Colombia</option>
-                        <option value="BR">Brasil</option>
-                        <option value="AR">Argentina</option>
-                        <option value="PR">Perú</option>
-                        <option value="BO">Bolivia</option>
-                        <option value="CL">Chile</option>
-                        <option value="UY">Uruguay</option>
-                        <option value="VE">Venezuela</option>
-
-                    </select>
-                </div>
-            </fieldset>
-            <fieldset>
-                <legend>Información extra</legend>
-                <div class="campo">
-                    <label for="cliente">Cliente </label>
-                    <input id="cliente" type="radio" name="tipo" required>
-                </div>
-            
-                <div class="campo">
-                    <label for="proveedor">Proveedor </label>
-                    <input id="proveedor" type="radio" name="tipo" required>
-                </div>
-                <div class="campo">
-                    <label for="categoria">Categoría de interés</label>
-                    <input type="text" list="categorias" name="categorias" required>
-                    <datalist id="categorias" required>
-                        <option value="Cocina">
-                        <option value="Oficina">
-                        <option value="Exteriores">
-                        <option value="Recamaras">
-                        <option value="Televisión">
-                    </datalist>
-                </div>
-            </fieldset>
-            <input class="btn" type="submit" value="Enviar formulario">
-        </form>
-
+    <main>
+        <p>El objetivo de esta tarea es trabajar las páginas <b>HTML</b> junto con <i>CSS</i> sin utilizar la etiqueta div.
+        </p>
+        <br>
+        <img src="img/html_css.jpg" alt="HTML Y CSS">
     </main>
+    <article class="flex">
+        <section>
+            <p>Enlace para ir a facebook</p>
+            <a href="https://www.facebook.com/">Facebook</a>
+            
+        </section>
+        <section>
+            <p>Enlace para ir a instagram</p>
+            <button>
 
-    <footer class="site-footer">
-        <div class="grid-footer contenedor">
-            <div>
-                <h3>Categorías</h3>
-                <nav class="footer-menu">
-                    <a href="#">Cocina</i></a>
-                    <a href="#"><i>Oficina</i></a>
-                    <a href="#"><i>Jardín</i></a>
-                    <a href="#"><i>Cochera</i></a>
-                    <a href="#"><i>Dormitorio</i></a>
-                </nav>
-            </div>
-            <div>
-                <h3>Sobre nosotros</h3>
-                <nav class="footer-menu">
-                    <a href="#"><i>Nuestra historia</i></a>
-                    <a href="#"><i>Misión, Visión y Valores</i></a>
-                    <a href="#"><i>Carreras</i></a>
-                    <a href="#"><i>Políticas de privacidad</i></a>
-                    <a href="#"><i>Terminos del servicio</i></a>
-                </nav>
-            </div>
-            <div>
-                <h3>Soporte</h3>
-                <nav class="footer-menu">
-                    <a href="#"><i>Preguntas frecuentes</i></a>
-                    <a href="#"><i>Auda en línea</i></a>
-                    <a href="#"><i>Confianza y Seguridad</i></a>
+            </button>
+            <a href="http://instagram.com">Instagram</a>
 
-                </nav>
-            </div>
-
-        </div>
-        <p class="copyright"><i><b>¡Todos los derechos reservados, Tienda muebles!</b></i></p>
+        </section>
+    </article>
+    <footer>
+        <h4>¡Muchas gracias!</h4>
     </footer>
 </body>
 
