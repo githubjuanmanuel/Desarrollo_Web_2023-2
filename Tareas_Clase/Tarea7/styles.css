@@ -42,30 +42,30 @@ main h3{
     
 }
 
-main section{
+main article{
     display: flex;
     justify-content: space-around;
     padding: 1.5rem;
     border: .2rem dashed;
 }
-main section div ul, div p{
+main article section ul, section p{
     list-style-type: none;
     text-align: justify;
     font-size: 1rem;
     
 }
 
-main section ul li{
+main article section ul li{
     color: blue;
     padding: .2rem;
 }
-main section ul li span{
+main article section ul li span{
     color: black;
     padding: .2rem;
 }
 
 
-main section div img{
+main article section img{
     height: 12rem;
     border-radius: .8rem;
 }

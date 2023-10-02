@@ -8,19 +8,19 @@ const appHeader = `<header >
 
 const appMain = `<main>
 <h3>Este proyecto involucra</h3>
-<section>
-    <div>
+<article>
+    <section>
         <img src="sources/img1.webp" alt="Imagen 1">
-    </div>
-    <div>
+    </section>
+    <section>
         <p>Estos son algunos lenguaje básicos para crear pagínas web</p>
         <ul>
             <li>Html:<span> Se utiliza para crear la estructura</span><li>
             <li>Css: <span>Es usado para darle estilos</span><li>
             <li>JavaScript: <span>Se usa para darle interactividad</span><li>
         </ul>
-    </div>
-</section>
+    </section>
+</article>
 </main>`
 
 Header.innerHTML = appHeader;
